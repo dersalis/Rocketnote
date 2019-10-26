@@ -1,0 +1,23 @@
+Rocketnote to ma³y, szybki i bezpieczny notatnik.
+Posiada takie funkcje jak:
+ • dodawanie notatki
+ • edytowanie notatki
+ • sortowanie notatek
+ • przenoszenie notatki do kosza
+ • usuwanie notatki
+ • udostêpnianie notatki za pomoc¹ SMS, Email i w siecie spo³ecznoœciowej
+ • przypinanie notatek do ekarnu start
+
+Nowoœci w wersji 1.1.2.2:
+ • poprawki drobnych b³êdów programu i UI
+
+Nowoœci w wersji 1.1.0.2:
+ • przypinanie notatek do ekarnu start
+ • poprawki drobnych b³êdów programu i UI
+
+Nowoœci w wersji 1.0.8.4:
+ • drobne poprawki
+
+Nowoœci w wersji 1.0.8.2:
+ • udostêpnianie notatki za pomoc¹ SMS, Email i w siecie spo³ecznoœciowej
+ • poprawki drobnych b³êdów programu i UI

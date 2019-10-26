@@ -1,0 +1,6 @@
+Rocketnote to prosty w obs³udze notatnik przeznaczony dla urz¹dzeñ mobilnych z systemem Windows Phone 8. Aplikacjê przygotowa³ polski programista Damian Ruta, dla którego jest to debiut na tej platformie sprzêtowej.
+
+ Rocketnote umo¿liwia przygotowywanie szybkich notatek, przypominaj¹cych o wa¿nym wydarzeniu lub czynnoœci do wykonania i przypinanie ich do ekranu g³ównego w postaci kafelka. Program oferuje podstawowe funkcje, takie jak dodawanie, edytowanie i sortowanie notatek (alfabetycznie lub czasowo), pozwalaj¹c te¿ na przenoszenie ich do tymczasowego kosza.
+ Co wa¿ne, Rocketnote pozwala dzieliæ siê notatkami ze znajomymi lub cz³onkami rodziny (np. list¹ zakupów). U¿ytkownik mo¿e tego dokonaæ za spraw¹ wiadomoœci SMS, poczty elektronicznej lub sieci spo³ecznoœciowych (Facebook, Twitter). W parze z przejrzystym interfejsem idzie tu czytelna szata graficzna, wykorzystuj¹ca aktualnie u¿ywan¹ kolorystykê systemu Windows Phone.
+
+ Rocketnote mo¿na pobraæ z Windows Phone Marketplace za darmo. Aplikacja zosta³a udostêpniona w jêzyku polskim i wymaga do dzia³ania systemu Windows Phone w ods³onie 7.5 lub 8. Nie wymaga sta³ego dostêpu do Internetu, aczkolwiek aby skorzystaæ z funkcji dzielenia siê notatkami, nale¿y nawi¹zaæ jednorazowe po³¹czenie w celu wys³ania informacji.

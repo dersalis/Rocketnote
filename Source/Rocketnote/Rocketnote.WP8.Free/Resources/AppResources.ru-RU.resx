@@ -1,0 +1,401 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AppBarCancel" xml:space="preserve">
+    <value>отмена</value>
+  </data>
+  <data name="AppBarEdit" xml:space="preserve">
+    <value>править</value>
+  </data>
+  <data name="AppBarEmptyTrash" xml:space="preserve">
+    <value>очистить корзину</value>
+  </data>
+  <data name="AppBarLikeMe" xml:space="preserve">
+    <value>поставить лайк</value>
+  </data>
+  <data name="AppBarMoveToTrash" xml:space="preserve">
+    <value>в Корзину</value>
+  </data>
+  <data name="AppBarNewNote" xml:space="preserve">
+    <value>новая заметка</value>
+  </data>
+  <data name="AppBarPin" xml:space="preserve">
+    <value>закрепить</value>
+  </data>
+  <data name="AppBarRateMe" xml:space="preserve">
+    <value>оценить</value>
+  </data>
+  <data name="AppBarSave" xml:space="preserve">
+    <value>сохранить</value>
+  </data>
+  <data name="AppBarSettings" xml:space="preserve">
+    <value>настройки</value>
+  </data>
+  <data name="AppBarShareNote" xml:space="preserve">
+    <value>поделиться</value>
+  </data>
+  <data name="AppBarSortNotes" xml:space="preserve">
+    <value>сортировка</value>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>Rocketnote</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>ROCKETNOTE</value>
+  </data>
+  <data name="ButtonResetNotesList" xml:space="preserve">
+    <value>Удалить все заметки</value>
+  </data>
+  <data name="FeedbackBody" xml:space="preserve">
+    <value>[Введите Ваше описание]
+
+
+---------------------------------
+Device Name: {0}
+Device Manufacturer: {1}
+Device Firmware Version: {2}
+Device Hardware Version: {3}
+Application Version: {4}
+---------------------------------</value>
+  </data>
+  <data name="FeedbackMessage1" xml:space="preserve">
+    <value>Жаль, что Вы не захотели оценить Rocketnote.
+
+Оставьте нам свой отзыв о приложении или посоветуйте, как мы еще можем улучшить его.</value>
+  </data>
+  <data name="FeedbackNo" xml:space="preserve">
+    <value>нет, спасибо</value>
+  </data>
+  <data name="FeedbackSubject" xml:space="preserve">
+    <value>Отзывы пользователей Rocketnote</value>
+  </data>
+  <data name="FeedbackTitle" xml:space="preserve">
+    <value>Можем ли мы сделать это приложение лучше?</value>
+  </data>
+  <data name="FeedbackTo" xml:space="preserve">
+    <value>mobileapps@aturex.pl</value>
+  </data>
+  <data name="FeedbackYes" xml:space="preserve">
+    <value>оставить отзыв</value>
+  </data>
+  <data name="FirstNoteContent" xml:space="preserve">
+    <value>Благодарим Вас за то, что выбрали Rocketnote.
+Rocketnote - это легкий, быстрый и безопасный блокнот. Он предоставляет следующие возможности: создание, редактирование, сортировка и удаление заметок. Заметки доступны только на Вашем телефоне, так что никто из посторонних не сможет получить к ним доступ.
+Я надеюсь, что Вы будете успешно использовать Rocketnote для своих повседневных задач.</value>
+  </data>
+  <data name="FirstNoteTitle" xml:space="preserve">
+    <value>Добро пожаловать</value>
+  </data>
+  <data name="MenuEdit" xml:space="preserve">
+    <value>редактировать</value>
+  </data>
+  <data name="MenuMoveToNotebook" xml:space="preserve">
+    <value>переместить в блокнот</value>
+  </data>
+  <data name="MenuMoveToTrash" xml:space="preserve">
+    <value>переместить в корзину</value>
+  </data>
+  <data name="MenuShareNote" xml:space="preserve">
+    <value>отправить</value>
+  </data>
+  <data name="MsgAllNotesDeleted" xml:space="preserve">
+    <value>Все заметки будут удалены с телефона</value>
+  </data>
+  <data name="MsgDeleteAllNotes" xml:space="preserve">
+    <value>Удалить все заметки?</value>
+  </data>
+  <data name="MsgDeleteOldestNotes" xml:space="preserve">
+    <value>Удалить старые заметки?</value>
+  </data>
+  <data name="MsgDeleteOrMoveNote" xml:space="preserve">
+    <value>Удалите заметки из блокнота или переместите в корзину, чтобы изменить значение</value>
+  </data>
+  <data name="MsgIfAddNewNote" xml:space="preserve">
+    <value>Удалите заметки из блокнота или переместите в корзину, чтобы добавить новые</value>
+  </data>
+  <data name="MsgNotebookIsFull" xml:space="preserve">
+    <value>Блокнот переполнен</value>
+  </data>
+  <data name="MsgTrashIsFull" xml:space="preserve">
+    <value>Корзина переполнена</value>
+  </data>
+  <data name="PageTitleAbout" xml:space="preserve">
+    <value>инфо</value>
+  </data>
+  <data name="PageTitleEditNote" xml:space="preserve">
+    <value>правка</value>
+  </data>
+  <data name="PageTitleNewNote" xml:space="preserve">
+    <value>новая заметка</value>
+  </data>
+  <data name="PageTitleNote" xml:space="preserve">
+    <value>заметка</value>
+  </data>
+  <data name="PageTitleNotebook" xml:space="preserve">
+    <value>блокнот</value>
+  </data>
+  <data name="PageTitleSettings" xml:space="preserve">
+    <value>настройки</value>
+  </data>
+  <data name="PageTitleShare" xml:space="preserve">
+    <value>отправить</value>
+  </data>
+  <data name="PageTitleSort" xml:space="preserve">
+    <value>сортировка</value>
+  </data>
+  <data name="PageTitleTrash" xml:space="preserve">
+    <value>корзина</value>
+  </data>
+  <data name="RatingMessage1" xml:space="preserve">
+    <value>Мы будем очень признательны, если Вы поставите нам 5 звёзд
+
+Ваши пожелания помогут нам продолжать разработку приложения и сделать его для Вас еще лучше!</value>
+  </data>
+  <data name="RatingMessage2" xml:space="preserve">
+    <value>Похоже, что Вы достаточно часто пользуетесь нашим приложением!
+
+Почему бы не поставить нам 5 звёзд в качестве вознаграждения?</value>
+  </data>
+  <data name="RatingNo" xml:space="preserve">
+    <value>нет, спасибо</value>
+  </data>
+  <data name="RatingTitle" xml:space="preserve">
+    <value>Нравится Rocketnote?</value>
+  </data>
+  <data name="RatingYes" xml:space="preserve">
+    <value>поставить 5 звёзд</value>
+  </data>
+  <data name="TextAuthor" xml:space="preserve">
+    <value>автор</value>
+  </data>
+  <data name="TextCleaning" xml:space="preserve">
+    <value>Очистка</value>
+  </data>
+  <data name="TextCreatedBy" xml:space="preserve">
+    <value>Заметка сделана в Rocketnote, приложении для Windows Phone</value>
+  </data>
+  <data name="TextDeleteAllNotes" xml:space="preserve">
+    <value>Вы можете удалить все заметки из блокнота и корзины.</value>
+  </data>
+  <data name="TextDeleteNotes" xml:space="preserve">
+    <value>Удаление заметок</value>
+  </data>
+  <data name="TextEmail" xml:space="preserve">
+    <value>эл. почта</value>
+  </data>
+  <data name="TextEmailSubiect" xml:space="preserve">
+    <value>Мне нравится Rocketnote</value>
+  </data>
+  <data name="TextIfTrashIsFull" xml:space="preserve">
+    <value>При превышении лимита старые заметки будут безвозвратно удалены</value>
+  </data>
+  <data name="TextNote" xml:space="preserve">
+    <value>Заметка</value>
+  </data>
+  <data name="TextNotebook" xml:space="preserve">
+    <value>Блокнот</value>
+  </data>
+  <data name="TextNotebookSize" xml:space="preserve">
+    <value>Размер блокнота</value>
+  </data>
+  <data name="TextOrganizeNotes" xml:space="preserve">
+    <value>Организация заметок в блокноте</value>
+  </data>
+  <data name="TextSetMaxInNotebook" xml:space="preserve">
+    <value>Установите максимальное количество заметок в блокноте</value>
+  </data>
+  <data name="TextSetMaxInTrash" xml:space="preserve">
+    <value>Установите максимальное количество заметок в корзине</value>
+  </data>
+  <data name="TextShareEmail" xml:space="preserve">
+    <value>по эл. почте</value>
+  </data>
+  <data name="TextShareSms" xml:space="preserve">
+    <value>по SMS</value>
+  </data>
+  <data name="TextShareSocialNetwork" xml:space="preserve">
+    <value>в соц. сети</value>
+  </data>
+  <data name="TextSortAlphabetically" xml:space="preserve">
+    <value>по алфавиту</value>
+  </data>
+  <data name="TextSortByCategory" xml:space="preserve">
+    <value>по категориям</value>
+  </data>
+  <data name="TextSortByChangeDate" xml:space="preserve">
+    <value>по дате изменения</value>
+  </data>
+  <data name="TextSortByCreationDate" xml:space="preserve">
+    <value>по дате создания</value>
+  </data>
+  <data name="TextSorting" xml:space="preserve">
+    <value>Сортировка</value>
+  </data>
+  <data name="TextTitle" xml:space="preserve">
+    <value>Заголовок</value>
+  </data>
+  <data name="TextTrash" xml:space="preserve">
+    <value>Корзина</value>
+  </data>
+  <data name="TextTrashSize" xml:space="preserve">
+    <value>Размер корзины</value>
+  </data>
+  <data name="TextTypeNote" xml:space="preserve">
+    <value>Введите текст заметки</value>
+  </data>
+  <data name="TextTypeTitle" xml:space="preserve">
+    <value>Введите заголовок</value>
+  </data>
+  <data name="TextVersion" xml:space="preserve">
+    <value>версия</value>
+  </data>
+  <data name="AppBarUnpin" xml:space="preserve">
+    <value>открепить</value>
+  </data>
+  <data name="TextChangeTheme" xml:space="preserve">
+    <value>сменить тему</value>
+  </data>
+  <data name="TextDarkTheme" xml:space="preserve">
+    <value>темная</value>
+  </data>
+  <data name="TextLightTheme" xml:space="preserve">
+    <value>светлая</value>
+  </data>
+  <data name="TextTheme" xml:space="preserve">
+    <value>тема</value>
+  </data>
+  <data name="AppBarAbout" xml:space="preserve">
+    <value>инфо</value>
+  </data>
+  <data name="AppBarStore" xml:space="preserve">
+    <value>магазин</value>
+  </data>
+  <data name="TextThemeMessage" xml:space="preserve">
+    <value>Перезагрузка, чтобы применить изменения темы</value>
+  </data>
+  <data name="TextPriority" xml:space="preserve">
+    <value>приоритет</value>
+  </data>
+  <data name="TextPriorityHigh" xml:space="preserve">
+    <value>высокий</value>
+  </data>
+  <data name="TextPriorityNormal" xml:space="preserve">
+    <value>нормальный</value>
+  </data>
+</root>
